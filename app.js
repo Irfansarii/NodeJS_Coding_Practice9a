@@ -60,7 +60,6 @@ app.post('/register', async (request, response) => {
       '${username}',
        '${name}',
        '${hashedPassword}', 
-       '${password}', 
        '${gender}', 
        '${location}'
     ); `
